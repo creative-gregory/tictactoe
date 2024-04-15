@@ -24,7 +24,7 @@
 - NoSQL Databases
   - Asynchronus Database Data Handling
   - Database Data Parsing
-  - 
+  
 ## Technologies Used
 - UIKit
 - UIStoryboarding
