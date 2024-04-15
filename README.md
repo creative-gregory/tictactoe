@@ -98,7 +98,8 @@ https://github.com/creative-gregory/tictactoe/assets/66806458/096bc714-61a1-4688
 ## Player Versus Computer Hard Demo
 https://github.com/creative-gregory/tictactoe/assets/66806458/98fbc4f6-d68b-495a-9270-bf4367a737a5
 
-
+## Create Account Demo
+https://github.com/creative-gregory/tictactoe/assets/66806458/e06fe27d-82b3-4a2b-9c81-7519718df2a1
 
 
 
