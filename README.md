@@ -10,6 +10,8 @@
 - Additionally, users can customize their experience through the settings page, with options to remove ads, switch between light and dark mode, manage account settings including deletion, and verify email status.
 
 ## Topic Covered
+- Game Theory: Minimax Algorithm
+  - Alpha-Beta Pruning 
 - Inner workings of simple gameplay and logic
 - Copy to clipboard for text message or other meduims
 - User Friendly UI
