@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VYx-rj-s7f">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VYx-rj-s7f">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -1195,13 +1195,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iLN-yP-mUn">
-                                <rect key="frame" x="102" y="618" width="210" height="36"/>
+                                <rect key="frame" x="20" y="618" width="374" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Utn-Vd-sBk"/>
-                                    <constraint firstAttribute="width" constant="210" id="anf-jN-Q7p"/>
+                                    <constraint firstAttribute="width" constant="374" id="anf-jN-Q7p"/>
                                 </constraints>
                                 <segments>
                                     <segment title="Easy"/>
+                                    <segment title="Medium"/>
                                     <segment title="Hard"/>
                                 </segments>
                                 <color key="selectedSegmentTintColor" systemColor="opaqueSeparatorColor"/>
@@ -1223,7 +1224,7 @@
                             <constraint firstItem="Zii-l2-Zwn" firstAttribute="trailing" secondItem="lmC-Xy-JVx" secondAttribute="trailing" constant="20" id="Anq-cN-n3n"/>
                             <constraint firstItem="Bh2-8H-w5R" firstAttribute="leading" secondItem="heR-d4-5wv" secondAttribute="trailing" constant="7" id="FsA-m6-rCw"/>
                             <constraint firstItem="Zii-l2-Zwn" firstAttribute="trailing" secondItem="Bh2-8H-w5R" secondAttribute="trailing" constant="20" id="FxZ-8I-HzW"/>
-                            <constraint firstItem="iLN-yP-mUn" firstAttribute="leading" secondItem="Zii-l2-Zwn" secondAttribute="leading" constant="102" id="GG8-BG-dUF"/>
+                            <constraint firstItem="iLN-yP-mUn" firstAttribute="leading" secondItem="Zii-l2-Zwn" secondAttribute="leading" constant="20" id="GG8-BG-dUF"/>
                             <constraint firstItem="23j-kJ-FLb" firstAttribute="leading" secondItem="WaA-nG-3yf" secondAttribute="trailing" constant="7" id="HJm-jg-Jt3"/>
                             <constraint firstItem="fYt-Eg-ewB" firstAttribute="top" secondItem="vwB-nR-Bbv" secondAttribute="bottom" constant="6" id="KQt-Je-ube"/>
                             <constraint firstItem="zkX-bL-73k" firstAttribute="width" secondItem="vwB-nR-Bbv" secondAttribute="width" id="N39-XC-zle"/>
@@ -1258,7 +1259,7 @@
                             <constraint firstItem="iLN-yP-mUn" firstAttribute="centerX" secondItem="Zii-l2-Zwn" secondAttribute="centerX" id="ogF-H9-2bd"/>
                             <constraint firstItem="Kcc-c0-l5u" firstAttribute="leading" secondItem="Zii-l2-Zwn" secondAttribute="leading" constant="92" id="pKe-HO-cFa"/>
                             <constraint firstItem="lmC-Xy-JVx" firstAttribute="leading" secondItem="zkX-bL-73k" secondAttribute="trailing" constant="7" id="qWw-vd-jcA"/>
-                            <constraint firstItem="Zii-l2-Zwn" firstAttribute="trailing" secondItem="iLN-yP-mUn" secondAttribute="trailing" constant="102" id="r7q-Zb-F1N"/>
+                            <constraint firstItem="Zii-l2-Zwn" firstAttribute="trailing" secondItem="iLN-yP-mUn" secondAttribute="trailing" constant="20" id="r7q-Zb-F1N"/>
                             <constraint firstItem="nFv-2h-14B" firstAttribute="height" secondItem="vwB-nR-Bbv" secondAttribute="height" id="ryt-DM-kSW"/>
                             <constraint firstItem="8yW-Wb-YHo" firstAttribute="top" secondItem="heR-d4-5wv" secondAttribute="bottom" constant="25" id="sb9-3V-Pqk"/>
                             <constraint firstItem="heR-d4-5wv" firstAttribute="leading" secondItem="nFv-2h-14B" secondAttribute="trailing" constant="7" id="u5C-aw-FzS"/>
@@ -1313,7 +1314,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rrx-Z5-VDa">
-                                <rect key="frame" x="82" y="381" width="250" height="50"/>
+                                <rect key="frame" x="82" y="381" width="187" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
                                 <state key="normal" title="Delete Account">
@@ -1324,7 +1325,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9u-d1-mem">
-                                <rect key="frame" x="82" y="181" width="250" height="50"/>
+                                <rect key="frame" x="82" y="181" width="187" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
                                 <state key="normal" title="Remove Ads">
@@ -1335,7 +1336,7 @@
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cLF-5U-odd">
-                                <rect key="frame" x="82" y="281" width="250" height="32"/>
+                                <rect key="frame" x="82" y="281" width="187" height="32"/>
                                 <segments>
                                     <segment title="Light Mode"/>
                                     <segment title="Dark Mode"/>
@@ -1345,7 +1346,7 @@
                                 </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAf-83-t7W">
-                                <rect key="frame" x="82" y="481" width="250" height="50"/>
+                                <rect key="frame" x="82" y="481" width="187" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
                                 <state key="normal" title="Close">
@@ -1356,7 +1357,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current User logged in" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gm-Vl-1p4">
-                                <rect key="frame" x="20" y="581" width="374" height="25"/>
+                                <rect key="frame" x="20" y="581" width="311" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="linkColor"/>
                                 <nil key="highlightedColor"/>
